@@ -1,0 +1,70 @@
+User Story acceptance criteria
+User Story 1: User Login
+ 
+Title: Login to the application
+ 
+As a registered customer,
+I want to log in using my email address and password,
+So that I can securely access my account and manage my orders.
+ 
+Acceptance Criteria
+User should see Email/Username and Password fields.
+User should see a Login button.
+User should be able to enter a valid email/username and password.
+On entering valid credentials, the user should be successfully logged in and redirected to the Home/Dashboard page.
+On entering invalid credentials, an appropriate error message should be displayed.
+If the email/username field is empty, a validation message should be displayed.
+If the password field is empty, a validation message should be displayed.
+Password should be masked while entering it.
+User should have a Forgot Password? option.
+User should have an option to Remember Me.
+Login should be prevented when mandatory fields are empty.
+After successful login, the user's account information should be accessible.
+Example Gherkin Scenario
+ 
+User Story 2 : Forgot Password
+Title: Reset Password
+As a registered employee,
+I want to reset my password if I forget it,
+So that I can regain access to my account securely.
+Acceptance Criteria
+User should see a Forgot your password? link on the Login page.
+User should be redirected to the Password Reset page upon clicking the link.
+User should see a Username field.
+User should be able to enter a valid username.
+User should see a Reset Password button.
+If a valid username is entered, a password reset confirmation message should be displayed.
+If the username field is empty, a validation message should be displayed.
+User should not be able to proceed without entering a username.
+User should have an option to return to the Login page.
+Password reset request should be submitted successfully when valid data is provided.
+
+User Story3: Add New User through Admin Module
+Title: Add New User
+As an Administrator,
+I want to add a new user through the Admin section,
+So that authorized employees can access the OrangeHRM application based on their assigned roles.
+Acceptance Criteria
+Administrator should be able to navigate to Admin → User Management → Users.
+Administrator should see an Add button on the Users page.
+Administrator should be able to click the Add button and open the Add User form.
+User should see the following fields:
+User Role
+Employee Name
+Status
+Username
+Password
+Confirm Password
+Administrator should be able to select a User Role (Admin/ESS).
+Administrator should be able to enter a valid Employee Name.
+Administrator should be able to select a Status (Enabled/Disabled).
+Administrator should be able to enter a unique Username.
+Administrator should be able to enter and confirm a valid Password.
+Password and Confirm Password values should match.
+Required field validation messages should be displayed when mandatory fields are left blank.
+An error message should be displayed if the Username already exists.
+An error message should be displayed if Password and Confirm Password do not match.
+Administrator should be able to save the new user successfully.
+A success message should be displayed after successful user creation.
+The newly added user should appear in the User List after saving.
+Administrator should be able to cancel the operation and return to the User List page.

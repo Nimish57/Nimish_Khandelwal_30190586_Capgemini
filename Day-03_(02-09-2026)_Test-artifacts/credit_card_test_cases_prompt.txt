@@ -1,0 +1,317 @@
+Assume you are a Senior Automation Test Engineer with extensive experience in Payment Gateway Testing, Banking Applications, PCI-DSS Compliance, Credit Card Processing, Card Validation Rules, Fraud Prevention, Secure Payment Systems, and E-commerce Checkout Platforms.
+
+I will provide a test case template. Your task is to generate a complete, exhaustive, production-ready, enterprise-grade set of test cases for Credit Card Payment Processing.
+
+Scope
+Payment Gateway Credit Card Form
+
+Supported Card Types:
+
+Visa
+MasterCard
+American Express (Amex)
+Input Fields
+Card Holder Name
+Card Number
+Expiration Date
+CVV
+Test Coverage Requirements
+
+Generate comprehensive test cases covering:
+
+Functional Testing
+Valid payment transactions
+Invalid payment transactions
+Payment authorization
+Payment capture
+Payment declines
+Refund validations
+Card type detection
+Input validation
+Mandatory field validation
+Boundary value analysis
+Equivalence partitioning
+Positive scenarios
+Negative scenarios
+Card Holder Name Validation
+
+Generate separate test cases for:
+
+Valid alphabets
+Minimum length
+Maximum length
+Single character
+Multiple names
+Space handling
+Leading spaces
+Trailing spaces
+Consecutive spaces
+Numbers in name
+Special characters
+Unicode characters
+Mixed language input
+Emojis
+Empty value
+Null value
+SQL injection attempts
+XSS payloads
+Card Number Validation
+
+For Visa, MasterCard, and American Express separately generate test cases for:
+
+Valid card numbers
+Invalid card numbers
+Luhn algorithm validation
+Supported card ranges
+Incorrect length
+Minimum length
+Maximum length
+Excess length
+Alphabetic inputs
+Special characters
+Spaces
+Leading zeros
+All zeros
+Null values
+Empty values
+Expired cards
+Blocked cards
+Stolen cards
+Lost cards
+Blacklisted cards
+International cards
+Domestic cards
+Expiration Date Validation
+
+Generate separate test cases for:
+
+Current month/year
+Future dates
+Past dates
+Current year with future month
+Current month and year
+Previous month and year combinations
+Invalid month values
+Month = 00
+Month > 12
+Invalid formats
+Boundary date values
+Leap year validations
+Empty field
+Null field
+Alphabetic inputs
+Special characters
+CVV Validation
+Visa
+Valid 3 digits
+Less than 3 digits
+More than 3 digits
+MasterCard
+Valid 3 digits
+Less than 3 digits
+More than 3 digits
+American Express
+Valid 4 digits
+Less than 4 digits
+More than 4 digits
+
+Additional CVV Scenarios:
+
+Alphabets
+Special characters
+Spaces
+Empty value
+Null value
+Copy-paste values
+Masking validation
+Auto-fill validation
+Security Testing
+
+Generate separate security test cases for:
+
+SQL Injection
+XSS
+CSRF
+Parameter tampering
+Request manipulation
+Token manipulation
+Session hijacking prevention
+Session timeout
+Browser back button handling
+Sensitive data exposure
+Replay attacks
+Brute-force attempts
+Rate limiting
+PCI-DSS validations
+Encryption validation
+HTTPS enforcement
+Card masking validation
+Audit logging validation
+Log sanitization
+Secure storage validation
+UI Testing
+
+Generate test cases for:
+
+Field labels
+Placeholder text
+Validation messages
+Error messages
+Success messages
+Tooltip content
+Responsive layouts
+Mobile compatibility
+Tablet compatibility
+Desktop compatibility
+Browser compatibility
+Accessibility compliance (WCAG)
+Integration Testing
+
+Generate test cases for:
+
+Payment gateway connectivity
+Authorization service failures
+Banking service failures
+Timeout scenarios
+Retry mechanisms
+Network interruptions
+Third-party dependency failures
+API contract validation
+Error response handling
+API Testing
+
+Generate test cases for:
+
+Request validation
+Response validation
+Invalid payloads
+Missing parameters
+Authentication failures
+Authorization failures
+Invalid tokens
+Expired tokens
+Rate limit validation
+HTTP status code verification
+Performance Testing
+
+Generate test cases for:
+
+High transaction volume
+Concurrent payments
+Peak traffic validation
+Response time validation
+Stress testing
+Soak testing
+Scalability testing
+Load testing
+Accessibility Testing
+
+Generate test cases for:
+
+Keyboard navigation
+Tab order
+Screen reader compatibility
+Focus indicators
+ARIA compliance
+Color contrast validation
+Usability Testing
+
+Generate test cases for:
+
+User-friendly error messages
+Real-time validation
+Form navigation
+Keyboard accessibility
+User guidance
+Input correction behavior
+Negative End-to-End Scenarios
+
+Generate separate test cases for:
+
+Incorrect CVV
+Invalid card number
+Expired card
+Insufficient funds
+Gateway unavailable
+Network failure during payment
+Session timeout
+Duplicate transaction attempt
+Payment timeout
+Authorization failure
+Fraud detection rejection
+Positive End-to-End Scenarios
+
+Generate separate test cases for:
+
+Successful Visa payment
+Successful MasterCard payment
+Successful American Express payment
+Guest checkout payment
+Registered user payment
+Saved card payment
+First-time user payment
+Output Format
+
+Use the uploaded Excel template structure and generate one test case per row.
+
+Mandatory Columns
+Test Case ID
+Test Name
+Test Priority
+Preconditions
+Test Steps
+Input Data
+Expected Results
+Actual Results
+Test Environment
+Execution Status
+Bug Severity
+Bug Priority
+Attachments
+Notes
+Test Name Rules
+
+Create meaningful, unique, business-readable test names.
+
+Examples:
+
+Validate Successful Visa Card Payment
+Validate Card Number Luhn Algorithm Failure
+Verify CVV Length Validation for Amex
+Verify Expired Card Rejection
+Validate SQL Injection Protection in Card Holder Name Field
+Test Priority Rules
+
+Assign priorities as follows:
+
+High
+Payment processing
+Authorization
+Card validation
+Security
+PCI-DSS compliance
+Critical business flows
+End-to-end transactions
+Medium
+Field validations
+Error handling
+Integration validations
+API validations
+Retry mechanisms
+Low
+Cosmetic checks
+Labels
+Placeholders
+UI formatting
+Non-critical usability validations
+Generation Rules
+Generate every validation as a separate test case.
+Do not combine multiple validations into a single row.
+Ensure maximum test coverage.
+Include Functional, UI, API, Security, Integration, Performance, Accessibility, Usability, Boundary, Positive, Negative, and End-to-End testing.
+Generate exhaustive test cases suitable for enterprise banking and payment gateway applications.
+Output must be directly importable into Excel with one test case per row.
+Populate the additional columns Test Name and Test Priority for every test case.
+Leave Actual Results, Execution Status, Bug Severity, Bug Priority, Attachments, and Notes blank unless explicitly specified.
+
+Template based on uploaded file test_case_template_excel_version_f00f15404f.xlsx.

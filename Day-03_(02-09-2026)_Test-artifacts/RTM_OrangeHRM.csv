@@ -1,0 +1,56 @@
+Requirement ID,Requirement Description,Test ID,Test Status
+REQ_LOGIN_001,Display Email/Username and Password fields,TC_LOGIN_001,Not Executed
+REQ_LOGIN_002,Display Login button,TC_LOGIN_001,Not Executed
+REQ_LOGIN_003,User can login with valid credentials,TC_LOGIN_002,Not Executed
+REQ_LOGIN_004,Redirect user to Dashboard after successful login,TC_LOGIN_002,Not Executed
+REQ_LOGIN_005,Display error message for invalid credentials,TC_LOGIN_003,Not Executed
+REQ_LOGIN_006,Validate empty Email/Username field,TC_LOGIN_004,Not Executed
+REQ_LOGIN_007,Validate empty Password field,TC_LOGIN_005,Not Executed
+REQ_LOGIN_008,Password should be masked,TC_LOGIN_006,Not Executed
+REQ_LOGIN_009,Display Forgot Password option,TC_LOGIN_001,Not Executed
+REQ_LOGIN_010,Display Remember Me option,TC_LOGIN_001,Not Executed
+REQ_LOGIN_011,Prevent login when mandatory fields are empty,TC_LOGIN_004,Not Executed
+REQ_LOGIN_011,Prevent login when mandatory fields are empty,TC_LOGIN_005,Not Executed
+REQ_LOGIN_012,Account information accessible after successful login,TC_LOGIN_007,Not Executed
+REQ_LOGIN_013,Login with valid email address,TC_LOGIN_008,Not Executed
+REQ_LOGIN_014,Login with valid username,TC_LOGIN_009,Not Executed
+REQ_LOGIN_015,Handle special character input validation,TC_LOGIN_010,Not Executed
+REQ_LOGIN_016,Session created after successful login,TC_LOGIN_011,Not Executed
+REQ_FP_001,Display Forgot Password link on Login page,TC_FP_001,Not Executed
+REQ_FP_002,Redirect user to Password Reset page,TC_FP_001,Not Executed
+REQ_FP_003,Display Username field on Reset page,TC_FP_002,Not Executed
+REQ_FP_004,Allow entry of valid username,TC_FP_003,Not Executed
+REQ_FP_005,Display Reset Password button,TC_FP_002,Not Executed
+REQ_FP_006,Display confirmation message after valid reset request,TC_FP_004,Not Executed
+REQ_FP_007,Validate empty Username field,TC_FP_005,Not Executed
+REQ_FP_008,Prevent reset when Username is empty,TC_FP_006,Not Executed
+REQ_FP_009,Allow user to return to Login page,TC_FP_007,Not Executed
+REQ_FP_010,Successfully submit password reset request,TC_FP_008,Not Executed
+REQ_ADMIN_001,Navigate to Admin User Management Users page,TC_ADMIN_001,Not Executed
+REQ_ADMIN_002,Display Add button on Users page,TC_ADMIN_002,Not Executed
+REQ_ADMIN_003,Open Add User form after clicking Add,TC_ADMIN_003,Not Executed
+REQ_ADMIN_004,Display User Role field,TC_ADMIN_004,Not Executed
+REQ_ADMIN_005,Display Employee Name field,TC_ADMIN_004,Not Executed
+REQ_ADMIN_006,Display Status field,TC_ADMIN_004,Not Executed
+REQ_ADMIN_007,Display Username field,TC_ADMIN_004,Not Executed
+REQ_ADMIN_008,Display Password field,TC_ADMIN_004,Not Executed
+REQ_ADMIN_009,Display Confirm Password field,TC_ADMIN_004,Not Executed
+REQ_ADMIN_010,Select User Role Admin,TC_ADMIN_011,Not Executed
+REQ_ADMIN_011,Select User Role ESS,TC_ADMIN_012,Not Executed
+REQ_ADMIN_012,Enter valid Employee Name,TC_ADMIN_017,Not Executed
+REQ_ADMIN_013,Select Enabled Status,TC_ADMIN_013,Not Executed
+REQ_ADMIN_014,Select Disabled Status,TC_ADMIN_014,Not Executed
+REQ_ADMIN_015,Enter unique Username,TC_ADMIN_016,Not Executed
+REQ_ADMIN_016,Enter valid Password,TC_ADMIN_020,Not Executed
+REQ_ADMIN_017,Confirm Password matches Password,TC_ADMIN_010,Not Executed
+REQ_ADMIN_018,Display validation for blank mandatory fields,TC_ADMIN_008,Not Executed
+REQ_ADMIN_018,Display validation for blank mandatory fields,TC_ADMIN_017,Not Executed
+REQ_ADMIN_018,Display validation for blank mandatory fields,TC_ADMIN_018,Not Executed
+REQ_ADMIN_018,Display validation for blank mandatory fields,TC_ADMIN_019,Not Executed
+REQ_ADMIN_018,Display validation for blank mandatory fields,TC_ADMIN_020,Not Executed
+REQ_ADMIN_019,Show error when Username already exists,TC_ADMIN_009,Not Executed
+REQ_ADMIN_020,Show error when Password and Confirm Password do not match,TC_ADMIN_010,Not Executed
+REQ_ADMIN_021,Save new user successfully,TC_ADMIN_005,Not Executed
+REQ_ADMIN_022,Display success message after user creation,TC_ADMIN_006,Not Executed
+REQ_ADMIN_023,Display newly added user in User List,TC_ADMIN_007,Not Executed
+REQ_ADMIN_024,Cancel Add User operation and return to User List,TC_ADMIN_015,Not Executed

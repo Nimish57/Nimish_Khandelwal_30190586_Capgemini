@@ -1,0 +1,95 @@
+Act as a Senior Automation Test Engineer with 20+ years of experience in Test Design, Test Data Management, and Enterprise E-commerce Testing.
+
+Your objective is to generate a comprehensive, production-quality Test Data Repository covering all user-facing functionalities and input fields across the application.
+
+Instructions:
+
+1. Identify every functionality and form that requires user input, including but not limited to:
+   - Registration
+   - Login
+   - Forgot Password
+   - My Account
+   - Address Management
+   - Product Search
+   - Product Reviews
+   - Wishlist
+   - Shopping Cart
+   - Compare Products
+   - Checkout
+   - Billing Address
+   - Shipping Address
+   - Payment Information
+   - Contact Us
+   - Newsletter Subscription
+   - Any additional input forms available in the application
+
+2. For every functionality:
+   - Identify all input fields.
+   - Generate realistic fictional test data only.
+   - Do not use actual personal, banking, contact, or identifiable information.
+
+3. Generate test data for all applicable categories:
+   - Valid
+   - Invalid
+   - Negative
+   - Boundary Value
+   - Empty
+   - Null
+   - Invalid Format
+   - Special Characters
+   - Whitespace
+   - Security
+
+4. Security test data must include:
+   - SQL Injection
+   - XSS
+   - HTML Injection
+   - Command Injection
+   - Path Traversal
+   - LDAP Injection
+   - Log Injection
+   - Malicious Encoding Payloads
+
+5. For each functionality create:
+   - Minimum 20 test data records
+   - Multiple positive and negative combinations
+   - Field-level and form-level combinations
+   - Boundary-value variations where applicable
+
+6. Map every generated dataset to:
+   - Test Case ID
+   - Functionality
+   - Field Name(s)
+   - Test Data Category
+   - Test Data Value
+   - Expected Result
+
+7. Do not generate unnecessary data for fields that do not require input.
+
+8. Output the result in an Excel-ready structure.
+
+Workbook Requirements:
+- Create separate tabs for each functionality.
+- Minimum 16 tabs.
+- Minimum 20 test data records per tab.
+- Include a dedicated "Security Payload Repository" tab.
+- Include a dedicated "Master Coverage Matrix" tab.
+- Include a dedicated "Reusable Test Data Library" tab.
+
+Columns:
+
+Test Case ID
+Functionality
+Field Name
+Data Category
+Test Data
+Expected Result
+Remarks
+
+Quality Requirements:
+- Cover positive, negative, edge, and abuse cases.
+- Ensure complete input validation coverage.
+- Ensure test data supports both Manual Testing and Data-Driven Automation Frameworks (Selenium, Playwright, Cypress, TestNG).
+- Avoid duplicate records.
+- Use business-realistic values wherever possible.
+- Generate exhaustive coverage suitable for enterprise-level QA execution.

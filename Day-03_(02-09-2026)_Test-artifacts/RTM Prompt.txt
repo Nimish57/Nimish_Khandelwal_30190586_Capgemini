@@ -1,0 +1,27 @@
+Act as a Senior QA Lead and Business Analyst with expertise in Requirements Traceability Matrix (RTM) creation.
+
+Analyze the attached User Story document and all associated test cases. Create a complete Requirements Traceability Matrix (RTM) by mapping every acceptance criterion/requirement to one or more relevant test cases.
+
+RTM Rules:
+1. Extract requirements from all user stories and acceptance criteria.
+2. Assign a unique Requirement ID for each requirement (e.g., REQ_LOGIN_001, REQ_FP_001, REQ_ADMIN_001).
+3. Map every requirement to the corresponding test case(s).
+4. Include all provided test cases, ensuring full coverage.
+5. If multiple test cases validate the same requirement, create separate rows for each test case mapping.
+6. Set Test Status as "Not Executed" unless otherwise specified in the test cases.
+7. Identify any requirements that do not have test coverage and mark the Test ID as "No Coverage".
+8. Output the result in an Excel-ready tabular format.
+
+Generate the RTM with exactly these four columns:
+
+| Requirement ID | Requirement Description | Test ID | Test Status |
+
+Additional Expectations:
+- Cover all Login, Forgot Password, and Admin Add User requirements.
+- Maintain one requirement per row.
+- Use concise but clear requirement descriptions.
+- Ensure 100% traceability between requirements and test cases.
+- Verify there are no duplicate or incorrect mappings.
+- Sort the RTM by Requirement ID.
+
+Return the final output as a structured table that can be directly copied into Excel.
