@@ -1,0 +1,161 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "student-registration;verify-student-registration",
+        "keyword": "Scenario Outline",
+        "line": 33,
+        "name": "Verify student registration",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2820322999
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2848027700
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 27,
+            "name": "User opens the registration application",
+            "match": {
+              "location": "features\\stepDefinitions\\registrationSteps.ts:271"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 11710853300
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "User enters registration details \"Hemlo\" \"hemlo@gmail.com\" \"9999999999\" \"2026-01-01\" \"testing\" \"Bangalore\" \"Rajasthan\" \"Lucknow\"",
+            "match": {
+              "location": "features\\stepDefinitions\\registrationSteps.ts:282"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 48708000
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "Registration should be completed successfully",
+            "match": {
+              "location": "features\\stepDefinitions\\registrationSteps.ts:310"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 441593400
+            },
+            "keyword": "After",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1436500
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "student-registration;verify-student-registration",
+        "keyword": "Scenario Outline",
+        "line": 34,
+        "name": "Verify student registration",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2200666900
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2066118500
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 27,
+            "name": "User opens the registration application",
+            "match": {
+              "location": "features\\stepDefinitions\\registrationSteps.ts:271"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 11816679000
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "User enters registration details \"John\" \"john@gmail.com\" \"8888888888\" \"2026-02-10\" \"Java\" \"Mumbai\" \"Rajasthan\" \"Lucknow\"",
+            "match": {
+              "location": "features\\stepDefinitions\\registrationSteps.ts:282"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 52146700
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "Registration should be completed successfully",
+            "match": {
+              "location": "features\\stepDefinitions\\registrationSteps.ts:310"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 539609400
+            },
+            "keyword": "After",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4083000
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "student-registration",
+    "line": 23,
+    "keyword": "Feature",
+    "name": "Student Registration",
+    "tags": [],
+    "uri": "features\\registration.feature"
+  }
+]

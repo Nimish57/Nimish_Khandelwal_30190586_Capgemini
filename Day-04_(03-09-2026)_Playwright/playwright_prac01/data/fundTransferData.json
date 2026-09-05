@@ -1,0 +1,8 @@
+{
+  "url": "https://playwrightpad.in/sandbox/banking",
+  "username": "apex_user",
+  "password": "Password123!",
+  "beneficiaryName": "Hemlo",
+  "beneficiaryAccountNumber": "1111111111",
+  "transferAmount": "1500"
+}
