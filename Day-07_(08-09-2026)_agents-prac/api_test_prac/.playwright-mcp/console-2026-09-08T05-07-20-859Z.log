@@ -1,0 +1,3 @@
+[ 1382611ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.videogamedb.uk/api/v2/videogame/0:0
+[ 1382836ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://www.videogamedb.uk/api/v2/videogame/0:0
+[ 1383074ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.videogamedb.uk/api/v2/videogame/999999:0

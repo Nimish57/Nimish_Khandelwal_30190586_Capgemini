@@ -1,0 +1,298 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e2]: This XML file does not appear to have any style information associated with it. The document tree is shown below.
+  - generic [ref=f1e4]:
+    - generic [ref=f1e5]:
+      - generic [ref=f1e6] [cursor=pointer]
+      - generic [ref=f1e7]: <List>
+    - generic [ref=f1e8]:
+      - generic [ref=f1e9]:
+        - generic [ref=f1e10]:
+          - generic [ref=f1e11] [cursor=pointer]
+          - generic [ref=f1e12]:
+            - text: <item
+            - generic [ref=f1e13]: category="Shooter"
+            - text: ">"
+        - generic [ref=f1e14]:
+          - generic [ref=f1e15]:
+            - generic [ref=f1e16]: <id>
+            - text: "1"
+            - generic [ref=f1e17]: </id>
+          - generic [ref=f1e18]:
+            - generic [ref=f1e19]: <name>
+            - text: Resident Evil 4
+            - generic [ref=f1e20]: </name>
+          - generic [ref=f1e21]:
+            - generic [ref=f1e22]: <releaseDate>
+            - text: 2005-10-01 23:59:59
+            - generic [ref=f1e23]: </releaseDate>
+          - generic [ref=f1e24]:
+            - generic [ref=f1e25]: <reviewScore>
+            - text: "85"
+            - generic [ref=f1e26]: </reviewScore>
+          - generic [ref=f1e27]:
+            - generic [ref=f1e28]: <rating>
+            - text: Universal
+            - generic [ref=f1e29]: </rating>
+        - generic [ref=f1e30]: </item>
+      - generic [ref=f1e32]:
+        - generic [ref=f1e33]:
+          - generic [ref=f1e34] [cursor=pointer]
+          - generic [ref=f1e35]:
+            - text: <item
+            - generic [ref=f1e36]: category="Driving"
+            - text: ">"
+        - generic [ref=f1e37]:
+          - generic [ref=f1e38]:
+            - generic [ref=f1e39]: <id>
+            - text: "2"
+            - generic [ref=f1e40]: </id>
+          - generic [ref=f1e41]:
+            - generic [ref=f1e42]: <name>
+            - text: Gran Turismo 3
+            - generic [ref=f1e43]: </name>
+          - generic [ref=f1e44]:
+            - generic [ref=f1e45]: <releaseDate>
+            - text: 2001-03-10 23:59:59
+            - generic [ref=f1e46]: </releaseDate>
+          - generic [ref=f1e47]:
+            - generic [ref=f1e48]: <reviewScore>
+            - text: "91"
+            - generic [ref=f1e49]: </reviewScore>
+          - generic [ref=f1e50]:
+            - generic [ref=f1e51]: <rating>
+            - text: Universal
+            - generic [ref=f1e52]: </rating>
+        - generic [ref=f1e53]: </item>
+      - generic [ref=f1e55]:
+        - generic [ref=f1e56]:
+          - generic [ref=f1e57] [cursor=pointer]
+          - generic [ref=f1e58]:
+            - text: <item
+            - generic [ref=f1e59]: category="Puzzle"
+            - text: ">"
+        - generic [ref=f1e60]:
+          - generic [ref=f1e61]:
+            - generic [ref=f1e62]: <id>
+            - text: "3"
+            - generic [ref=f1e63]: </id>
+          - generic [ref=f1e64]:
+            - generic [ref=f1e65]: <name>
+            - text: Tetris
+            - generic [ref=f1e66]: </name>
+          - generic [ref=f1e67]:
+            - generic [ref=f1e68]: <releaseDate>
+            - text: 1984-06-25 23:59:59
+            - generic [ref=f1e69]: </releaseDate>
+          - generic [ref=f1e70]:
+            - generic [ref=f1e71]: <reviewScore>
+            - text: "88"
+            - generic [ref=f1e72]: </reviewScore>
+          - generic [ref=f1e73]:
+            - generic [ref=f1e74]: <rating>
+            - text: Universal
+            - generic [ref=f1e75]: </rating>
+        - generic [ref=f1e76]: </item>
+      - generic [ref=f1e78]:
+        - generic [ref=f1e79]:
+          - generic [ref=f1e80] [cursor=pointer]
+          - generic [ref=f1e81]:
+            - text: <item
+            - generic [ref=f1e82]: category="Platform"
+            - text: ">"
+        - generic [ref=f1e83]:
+          - generic [ref=f1e84]:
+            - generic [ref=f1e85]: <id>
+            - text: "4"
+            - generic [ref=f1e86]: </id>
+          - generic [ref=f1e87]:
+            - generic [ref=f1e88]: <name>
+            - text: Super Mario 64
+            - generic [ref=f1e89]: </name>
+          - generic [ref=f1e90]:
+            - generic [ref=f1e91]: <releaseDate>
+            - text: 1996-10-20 23:59:59
+            - generic [ref=f1e92]: </releaseDate>
+          - generic [ref=f1e93]:
+            - generic [ref=f1e94]: <reviewScore>
+            - text: "90"
+            - generic [ref=f1e95]: </reviewScore>
+          - generic [ref=f1e96]:
+            - generic [ref=f1e97]: <rating>
+            - text: Universal
+            - generic [ref=f1e98]: </rating>
+        - generic [ref=f1e99]: </item>
+      - generic [ref=f1e101]:
+        - generic [ref=f1e102]:
+          - generic [ref=f1e103] [cursor=pointer]
+          - generic [ref=f1e104]:
+            - text: <item
+            - generic [ref=f1e105]: category="Adventure"
+            - text: ">"
+        - generic [ref=f1e106]:
+          - generic [ref=f1e107]:
+            - generic [ref=f1e108]: <id>
+            - text: "5"
+            - generic [ref=f1e109]: </id>
+          - generic [ref=f1e110]:
+            - generic [ref=f1e111]: <name>
+            - text: "The Legend of Zelda: Ocarina of Time"
+            - generic [ref=f1e112]: </name>
+          - generic [ref=f1e113]:
+            - generic [ref=f1e114]: <releaseDate>
+            - text: 1998-12-10 23:59:59
+            - generic [ref=f1e115]: </releaseDate>
+          - generic [ref=f1e116]:
+            - generic [ref=f1e117]: <reviewScore>
+            - text: "93"
+            - generic [ref=f1e118]: </reviewScore>
+          - generic [ref=f1e119]:
+            - generic [ref=f1e120]: <rating>
+            - text: PG-13
+            - generic [ref=f1e121]: </rating>
+        - generic [ref=f1e122]: </item>
+      - generic [ref=f1e124]:
+        - generic [ref=f1e125]:
+          - generic [ref=f1e126] [cursor=pointer]
+          - generic [ref=f1e127]:
+            - text: <item
+            - generic [ref=f1e128]: category="Shooter"
+            - text: ">"
+        - generic [ref=f1e129]:
+          - generic [ref=f1e130]:
+            - generic [ref=f1e131]: <id>
+            - text: "6"
+            - generic [ref=f1e132]: </id>
+          - generic [ref=f1e133]:
+            - generic [ref=f1e134]: <name>
+            - text: Doom
+            - generic [ref=f1e135]: </name>
+          - generic [ref=f1e136]:
+            - generic [ref=f1e137]: <releaseDate>
+            - text: 1993-02-18 23:59:59
+            - generic [ref=f1e138]: </releaseDate>
+          - generic [ref=f1e139]:
+            - generic [ref=f1e140]: <reviewScore>
+            - text: "81"
+            - generic [ref=f1e141]: </reviewScore>
+          - generic [ref=f1e142]:
+            - generic [ref=f1e143]: <rating>
+            - text: Mature
+            - generic [ref=f1e144]: </rating>
+        - generic [ref=f1e145]: </item>
+      - generic [ref=f1e147]:
+        - generic [ref=f1e148]:
+          - generic [ref=f1e149] [cursor=pointer]
+          - generic [ref=f1e150]:
+            - text: <item
+            - generic [ref=f1e151]: category="Puzzle"
+            - text: ">"
+        - generic [ref=f1e152]:
+          - generic [ref=f1e153]:
+            - generic [ref=f1e154]: <id>
+            - text: "7"
+            - generic [ref=f1e155]: </id>
+          - generic [ref=f1e156]:
+            - generic [ref=f1e157]: <name>
+            - text: Minecraft
+            - generic [ref=f1e158]: </name>
+          - generic [ref=f1e159]:
+            - generic [ref=f1e160]: <releaseDate>
+            - text: 2011-12-05 23:59:59
+            - generic [ref=f1e161]: </releaseDate>
+          - generic [ref=f1e162]:
+            - generic [ref=f1e163]: <reviewScore>
+            - text: "77"
+            - generic [ref=f1e164]: </reviewScore>
+          - generic [ref=f1e165]:
+            - generic [ref=f1e166]: <rating>
+            - text: Universal
+            - generic [ref=f1e167]: </rating>
+        - generic [ref=f1e168]: </item>
+      - generic [ref=f1e170]:
+        - generic [ref=f1e171]:
+          - generic [ref=f1e172] [cursor=pointer]
+          - generic [ref=f1e173]:
+            - text: <item
+            - generic [ref=f1e174]: category="Strategy"
+            - text: ">"
+        - generic [ref=f1e175]:
+          - generic [ref=f1e176]:
+            - generic [ref=f1e177]: <id>
+            - text: "8"
+            - generic [ref=f1e178]: </id>
+          - generic [ref=f1e179]:
+            - generic [ref=f1e180]: <name>
+            - text: SimCity 2000
+            - generic [ref=f1e181]: </name>
+          - generic [ref=f1e182]:
+            - generic [ref=f1e183]: <releaseDate>
+            - text: 1994-09-11 23:59:59
+            - generic [ref=f1e184]: </releaseDate>
+          - generic [ref=f1e185]:
+            - generic [ref=f1e186]: <reviewScore>
+            - text: "88"
+            - generic [ref=f1e187]: </reviewScore>
+          - generic [ref=f1e188]:
+            - generic [ref=f1e189]: <rating>
+            - text: Universal
+            - generic [ref=f1e190]: </rating>
+        - generic [ref=f1e191]: </item>
+      - generic [ref=f1e193]:
+        - generic [ref=f1e194]:
+          - generic [ref=f1e195] [cursor=pointer]
+          - generic [ref=f1e196]:
+            - text: <item
+            - generic [ref=f1e197]: category="RPG"
+            - text: ">"
+        - generic [ref=f1e198]:
+          - generic [ref=f1e199]:
+            - generic [ref=f1e200]: <id>
+            - text: "9"
+            - generic [ref=f1e201]: </id>
+          - generic [ref=f1e202]:
+            - generic [ref=f1e203]: <name>
+            - text: Final Fantasy VII
+            - generic [ref=f1e204]: </name>
+          - generic [ref=f1e205]:
+            - generic [ref=f1e206]: <releaseDate>
+            - text: 1997-08-20 23:59:59
+            - generic [ref=f1e207]: </releaseDate>
+          - generic [ref=f1e208]:
+            - generic [ref=f1e209]: <reviewScore>
+            - text: "97"
+            - generic [ref=f1e210]: </reviewScore>
+          - generic [ref=f1e211]:
+            - generic [ref=f1e212]: <rating>
+            - text: PG-13
+            - generic [ref=f1e213]: </rating>
+        - generic [ref=f1e214]: </item>
+      - generic [ref=f1e216]:
+        - generic [ref=f1e217]:
+          - generic [ref=f1e218] [cursor=pointer]
+          - generic [ref=f1e219]:
+            - text: <item
+            - generic [ref=f1e220]: category="Driving"
+            - text: ">"
+        - generic [ref=f1e221]:
+          - generic [ref=f1e222]:
+            - generic [ref=f1e223]: <id>
+            - text: "10"
+            - generic [ref=f1e224]: </id>
+          - generic [ref=f1e225]:
+            - generic [ref=f1e226]: <name>
+            - text: Grand Theft Auto III
+            - generic [ref=f1e227]: </name>
+          - generic [ref=f1e228]:
+            - generic [ref=f1e229]: <releaseDate>
+            - text: 2001-04-23 23:59:59
+            - generic [ref=f1e230]: </releaseDate>
+          - generic [ref=f1e231]:
+            - generic [ref=f1e232]: <reviewScore>
+            - text: "90"
+            - generic [ref=f1e233]: </reviewScore>
+          - generic [ref=f1e234]:
+            - generic [ref=f1e235]: <rating>
+            - text: Mature
+            - generic [ref=f1e236]: </rating>
+        - generic [ref=f1e237]: </item>
+    - generic [ref=f1e239]: </List>
